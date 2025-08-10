@@ -27,7 +27,7 @@
             <a href ="login.php" class="login">User Login</a>
         </div>
             </nav>
-          
+
           </header> 
           <div class="bac"> 
           <div class="content">

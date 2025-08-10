@@ -156,7 +156,7 @@ $result = $conn->query($sql);
         <a href="logout.php">LOGOUT</a> <!-- Moved logout link to top right corner -->
         
         <div class="visitor-count">
-            <h3>Number of july Fee payed Members: <?php echo $visitor_count; ?></h3>
+            <h3>Number of August Fee payed Members: <?php echo $visitor_count; ?></h3>
         </div>
         
         <div class="member-management">

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Login</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    min-height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(boy.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 13%;
+    
+    color: white;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #f7ecec;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #faf4f4;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.buttonadmin{
+            display: flex;
+            flex-direction: row;
+        }
+input[type="submit"], a{
+    width: 100%;
+    padding: 10px 15px;
+    border: 3px solid #6ed4fc;
+    border-radius: 4px;
+    background-color: #CA965C;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ca9a5c;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container"><br><br><br><br><br><br>
+        <h2>Admin Login</h2>
+        <form action="admin.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <div class="buttonadmin">
+                <input type="submit" value="Login"><a href="index.php">BACK</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

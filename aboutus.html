@@ -1,0 +1,206 @@
+<html>
+    <head>
+       <title>About US</title> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+.aboutus{
+    margin: 5px;
+    padding: 10px;
+    }
+.first-aboutus{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    color: #ffffff;
+    background: url(boy.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding: 3em 0 2em 0;
+    }
+.ad{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+}
+.content-aboutus{
+    width: 90%;
+    padding: 30px;
+    margin-left: 5px;
+    color: black;
+}
+.content-aboutus p {
+    color: black;
+    font-size: 18px;
+
+}
+.content-aboutus h4{
+    color: black;
+}
+.right-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.map h3{
+    color: black;
+}
+.map{
+    margin-top: 60px;
+    justify-content: center;
+}
+.form-container-aboutus {
+    width: 100%;
+    height: 475px;
+    padding: 10px;
+    background-color: #d8e4e4;
+    margin-left: 0;
+    border-radius: 10px;
+}
+.form-container-aboutus form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+.form-container-aboutus label,
+.form-container-aboutus input,
+.form-container-aboutus textarea
+{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: black;
+    margin-right: 30px;
+}
+.form-container-aboutus input{
+    width: 300px;
+    border-radius: 8px;
+}
+.form-container-aboutus button {
+    font-size: 1.1em;
+}
+
+.form-container-aboutus .button button{
+    width: 200px; 
+    height: 40px;
+    background-color: #e77529;
+    color: #E3F0FF;
+     border: none;
+     border-radius: 10px;
+     margin-left: 50px;
+}
+.form-container-aboutus .button button:hover{
+    background: #ce8838;
+}
+    </style>
+    </head>
+    <body>    
+        <header>
+            <nav class="na">
+                <img src="logo.png" class="logo">
+                <H1 class="stargym">STAR GYM</H1>
+        <div class="hover">
+        <ul>
+            <li><a class="co" href ="index.php">Home</a></li>
+            <li><a class="co" href="personaltraining.html">Personal Training</a></li>
+            <li><a class="co" href="carrier.php">Carrier</a></li>
+            <li><a class="co" href="membership.html">Membership</a></li>
+            <li><a class="co" href="admin.html">Admin Login</a></li>
+        </ul>
+        </div>
+        <div>
+            <a href ="login.php" class="login">User Login</a>
+        </div>
+            </nav>
+          </header>
+          <div class="aboutus">
+          <div class="first-aboutus">
+            <h2 style="color: white;">ABOUT US</h2>
+          </div>
+    
+          <div class="ad">
+            <div class="content-aboutus">
+              <b>
+                <h1 style="font-size: 25px;color: #810400;">  About Us – STAR Gym</h1>
+              </b>
+              <br>
+      <p>Celebrating two decades of exceptional fitness, STAR Gym stands proudly at the forefront of wellness in the vibrant core of Mumbai’s Andheri West. Spanning an impressive 10,000 sq.ft., our facility marks a significant milestone in the landscape of standalone boutique gyms.
+      
+      STAR GYM: A 20-YEAR FITNESS LEGACY – this isn’t just our tagline; it’s a testament to our commitment to your health and fitness journey. With state-of-the-art equipment, a spacious workout arena, and a dedicated CrossFit Studio, we’ve created an environment where champions are made.
+      
+      <br><br>Our internationally certified personal trainers don’t just guide you; they tailor a workout and diet regimen that’s as unique as you are. We believe in a personalized touch, from our welcoming reception team to our expert floor trainers, at Waves, you’re not just a member; you’re family.
+      
+      <br><br>We elevate your fitness experience with complimentary valet parking, daily-use lockers, and shoe storage. Dive into our range of popular group classes, including Zumba, Power Yoga, Indoor Cycling, and CrossFit, all bookable with a simple click on our user-friendly app.</p>
+      <br>
+      <h4>Operating Hours:</h4><br>
+      
+      <p>1.Monday to Saturday: 6:00 am to 12:00 am</p>
+      <p>2.Sunday: 6:00 am to 10:00 pm</p>
+      <br>
+      <p>Join us at Waves Gym, where strength is not just built, it’s celebrated.</p>
+            </div>
+            <div class="right-container">
+            <div class="form-container-aboutus">
+              <div class="h2onedayfreepass">
+                <h2 style="font-family: Arial, Helvetica, sans-serif;padding-top: 40px; padding-left: 50px; padding-bottom: 40px; background-color: #48414d; color:#E3F0FF">1 DAY FREE PASS</h2>
+              </div>
+              <br><br>
+              <form action="register.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>             
+                <input type="email" id="email" name="email" required>
+                <label for="Phone">Phone no:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <br>
+                <div class="button">
+                <button  type="submit">Register</button>
+              </div>          
+              </form>
+            </div>
+            <div class="map">
+                <h3>Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.612462262101!2d77.03599737412378!3d10.91702845658641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8504353e12e89%3A0x7c57851af7bd6ea5!2sStar%20gym!5e0!3m2!1sen!2sin!4v1719060175153!5m2!1sen!2sin" width="350" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+          </div>
+        </div>        
+          <footer>
+            <div class="cont">
+                <div class="footer-content">
+                    <h3>Contact US</h3>
+                    <p>Email:starfit@gmail.com</p>
+                    <p>Phone: 9342962402</p>
+                    <p>Address: No 4, Valluvar Colony, Reddiyarpatti Road,
+                        Thirumal Nagar, Tirunelveli, 
+                        Tamil Nadu 627007</p>
+                </div>
+                <div class="footer-content">
+                    <h3>Quick Link</h3>
+                    <ul class="footer-list">
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="aboutus.html">About US</a></li>
+                        <li><a href="membership.html">Membership</a></li>
+                        <li><a href="carrier.php">Careers</a></li>
+                        <li><a href="location.html">Location</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h3>Follow US</h3>
+                    <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/accounts/login/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
